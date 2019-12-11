@@ -1,0 +1,82 @@
+
+/* Estilos, de las tablas, div, fondo */
+body{
+	background: url(../img/fondo.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+/* Fondo del div con pokedex */
+.jumbotron {
+	background: url(../img/pkedex.png) no-repeat center center; 
+	height: 550px;
+	width: 790px;
+	background-size: 100% 100%;
+}
+/*Pocision de div por id */
+#pokedex{
+	position: absolute;
+	left: 25%;
+	top: 15%;
+	height: 552px;
+	width: 800px;
+	background-color: white;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+}
+#habilidades{
+	position: absolute;
+	left: 58%;
+	top: 35%;
+}
+#sprites{
+	position: absolute;
+	left: 6%;
+	top: 32%;
+}
+#volver{
+	position: absolute;
+	left:85%;
+	top: 10%;
+}
+#nombre{
+	position: absolute;
+	left:7.5%;
+	top: 83%;
+}
+#tipo{
+	position: absolute;
+	left:59%;
+	top: 79%;	
+}
+#tipo2{
+	position: absolute;
+	left:77%;
+	top: 79%;	
+}
+#boton{
+	padding: 2% 1em;	
+}
+/* Modificaciones a las tablas y bordes*/
+#tablacontainer {
+	position: absolute;
+	left: 25%;
+	top: 10%;
+	height: auto;
+	width: auto;
+	background-color:rgba(255,255,255, 0.8);
+	border: 1px solid #ccc;
+	border-radius: 10px;
+}
+#tablasave {
+	padding: 2% 1em;
+	position: absolute;
+	left: 30%;
+	top: 15%;
+	height: auto;
+	width: auto;
+	background-color:rgba(255,255,255, 0.8);
+	border: 1px solid #ccc;
+	border-radius: 10px;
+}
